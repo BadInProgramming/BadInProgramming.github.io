@@ -1,0 +1,19 @@
+body{
+    font-family: 'monospace',sans-serif;
+}
+#ad1{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#ad2{
+    position: absolute;
+    left: 100%;
+    top:50em;
+    transform: translate(-100%,-50%);
+    background-color: rgb(110, 110, 110);
+    height: 500px;
+    width: 200px;
+    
+}
